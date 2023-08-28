@@ -1,9 +1,14 @@
-.gpt3__possibility {
+.ai__possibility {
     display: flex;
     flex-direction: row;
+    background: rgb(24,1,52);
+    background: -moz-linear-gradient(90deg, rgba(24,1,52,1) 0%, rgba(51,6,26,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(24,1,52,1) 0%, rgba(51,6,26,1) 100%);
+    background: linear-gradient(90deg, rgba(24,1,52,1) 0%, rgba(51,6,26,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#180134",endColorstr="#33061a",GradientType=1);
 }
 
-.gpt3__possibility-image {
+.ai__possibility-image {
     flex: 1;
     display: flex;
     justify-content: flex-start;
@@ -12,12 +17,12 @@
     margin-right: 2rem;
 }
 
-.gpt3__possibility-image img {
+.ai__possibility-image img {
     width: 100%;
     height: 100%;
 }
 
-.gpt3__possibility-content {
+.ai__possibility-content {
     flex: 1;
     display: flex;
     justify-content: flex-end;
@@ -25,7 +30,7 @@
     flex-direction: column;
 }
 
-.gpt3__possibility-content h4 {
+.ai__possibility-content h4 {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
@@ -33,19 +38,20 @@
     color: #71E5FF;
 }
 
-.gpt3__possibility-content h4:last-child {
+.ai__possibility-content h4:last-child {
     color: #ff8A71;
 }
 
-.gpt3__possibility-content h1 {
+.ai__possibility-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 34px;
     line-height: 45px;
     margin: 1rem 0;
+    overflow-y: hidden;
 }
 
-.gpt3__possibility-content p {
+.ai__possibility-content p {
     color: var(--color-text);
     font-family: var(--font-family);
     font-weight: 400;
@@ -56,26 +62,26 @@
 }
 
 @media screen and (max-width: 950px) {
-    .gpt3__possibility {
+    .ai__possibility {
         flex-direction: column;
     }
 
-    .gpt3__possibility-image {
+    .ai__possibility-image {
         margin: 1rem 0;
     }
 
-    .gpt3__possibility-image img {
+    .ai__possibility-image img {
         width: unset;
         height: unset;
     }
 
-    .gpt3__possibility-content {
+    .ai__possibility-content {
         margin-top: 2rem;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .gpt3__possibility-image img {
+    .ai__possibility-image img {
         width: 100%;
         height: 100%;
     }

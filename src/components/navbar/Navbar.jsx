@@ -7,12 +7,12 @@ import './navbar.css';
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className='gpt3__navbar'>
-      <div className='gpt3__navbar-links'>
-        <div className='gpt3__navbar-links_logo'>
+    <div className='ai__navbar'>
+      <div className='ai__navbar-links'>
+        <div className='ai__navbar-links_logo'>
           <img src={logo} alt="logo" />
         </div>
-          <div className='gpt3__navbar-links_container'>
+          <div className='ai__navbar-links_container'>
           <p><a href="#Home">Home</a></p> 
           <p><a href="#wai">What is AI?</a></p>
           <p><a href="#features">Case Study</a></p>
@@ -20,24 +20,24 @@ const Navbar = () => {
           <p><a href="#contact">Contact</a></p>
           </div>
       </div>
-      <div className="gpt3__navbar-sign">
+      <div className="ai__navbar-sign">
         <p>sign in</p>
         <button type="button">Sign up</button>
       </div>
-      <div className="gpt3__navbar-menu">
+      <div className="ai__navbar-menu">
         { toggleMenu 
         ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
         : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
       }
       { toggleMenu && (
-          <div className='gpt3__navbar-menu_container scale-up-center'>
-            <div className='gpt3__navbar-menu_container-links'> 
+          <div className='ai__navbar-menu_container scale-up-center'>
+            <div className='ai__navbar-menu_container-links'> 
             <p><a href="#Home">Home</a></p> 
             <p><a href="#wai">What is AI?</a></p>
             <p><a href="#feature">Case Study</a></p>
             <p><a href="#possibility">Open AI</a></p>
             <p><a href="#contact">Contact</a></p>
-             <div className="gpt3__navbar-menu_container-links-sign">
+             <div className="ai__navbar-menu_container-links-sign">
               <p>Sign in</p>
               <button type="button">Sign up</button>
              </div>

@@ -1,5 +1,5 @@
 import React from 'react' ;
-import { Footer, Possibility, Features, WhatGPT3, Header } from './containers';
+import { Footer, Possibility, Features, WhatAI, Header } from './containers';
 import {  Navbar } from './components';
 import './App.css';
 
@@ -10,11 +10,9 @@ const App = () => {
             <Navbar />
             <Header />
         </div>
-        <WhatGPT3 />
+        <WhatAI />
         <Features />
         <Possibility /> 
-        {/*<CTA /> */}
-       { /*<Blog /> */}
         <Footer />
     </div>
 
