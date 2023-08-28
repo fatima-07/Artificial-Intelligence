@@ -24,7 +24,7 @@ const Features = () => {
   return (
   <div className="ai__features section__padding gradient__bg" id="features">
     <div className="ai__features-heading">
-      <h1 className="gradient__text">The Future is Now and You Just Need to Realize It. Step into Future Today & Make it Happen.</h1>
+      <h1 className="gradient__text">The Future is Now and You Just Need to Realize It.<br />Let's Make it Happen.</h1>
       <p>Request Early Access to Get Started</p>
     </div>
     <div className="ai__features-container">
