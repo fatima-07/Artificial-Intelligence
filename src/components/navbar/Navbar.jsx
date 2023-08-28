@@ -28,7 +28,7 @@ const Navbar = () => {
         { toggleMenu 
         ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
         : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
-      }
+        }
       { toggleMenu && (
           <div className='ai__navbar-menu_container scale-up-center'>
             <div className='ai__navbar-menu_container-links'> 
@@ -37,11 +37,11 @@ const Navbar = () => {
             <p><a href="#feature">Case Study</a></p>
             <p><a href="#possibility">Open AI</a></p>
             <p><a href="#contact">Contact</a></p>
+           </div>
              <div className="ai__navbar-menu_container-links-sign">
               <p>Sign in</p>
               <button type="button">Sign up</button>
              </div>
-            </div>
           </div>
         )
       }
