@@ -13,7 +13,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" />
         </div>
           <div className='ai__navbar-links_container'>
-          <p><a href="#Home">Home</a></p> 
+          <p><a href="#home">Home</a></p> 
           <p><a href="#wai">What is AI?</a></p>
           <p><a href="#features">Case Study</a></p>
           <p><a href="#possibility">Open AI</a></p>
@@ -32,9 +32,9 @@ const Navbar = () => {
       { toggleMenu && (
           <div className='ai__navbar-menu_container scale-up-center'>
             <div className='ai__navbar-menu_container-links'> 
-            <p><a href="#Home">Home</a></p> 
+            <p><a href="#home">Home</a></p> 
             <p><a href="#wai">What is AI?</a></p>
-            <p><a href="#feature">Case Study</a></p>
+            <p><a href="#features">Case Study</a></p>
             <p><a href="#possibility">Open AI</a></p>
             <p><a href="#contact">Contact</a></p>
            </div>
